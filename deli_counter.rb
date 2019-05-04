@@ -8,4 +8,5 @@ def line(katz_deli)
     number = 1
     katz_deli.each do |customer|
       line_positions << "#{number}. #{customer}"
+      number += 1
       
