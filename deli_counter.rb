@@ -10,4 +10,4 @@ def line(katz_deli)
       line_positions << "#{number}. #{customer}"
       number += 1
     end
-    puts
+    puts "The line is currently: (line_positions"
